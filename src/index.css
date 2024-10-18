@@ -1,0 +1,117 @@
+
+/* button:hover {
+  border: 0.1rem #adff2f solid;
+} */
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #ff8000;
+}
+/* Card */
+.card {
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.card-body {
+  padding: 1rem;
+}
+.card-body > * {
+  margin-bottom: 0.5rem;
+}
+button.primary {
+  background-color: #4fa607;
+}
+button.block {
+  width: 100%;
+}
+button.small {
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+
+.row.top {
+  align-items: flex-start;
+}
+.row.start {
+  justify-content: flex-start;
+}
+.col-1 {
+  flex: 1 1 25rem;
+}
+.col-2 {
+  flex: 1 1 20rem;
+}
+.col-3 {
+  flex: 32 1 75rem;
+}
+.min-30 {
+  min-width: 30rem;
+}
+.p-1 {
+  padding: 1rem;
+}
+
+
+
+
+
+
+/* Table */
+.table {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){
+  background-color: #90ee9067 ;
+          }
+.table tr:hover {
+    background-color:#90EE90;
+    color:white
+       }
+ .table th {
+        font-size: 12px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        text-align: center;
+        background-color: #4fa607;
+        color: #053333;
+      
+      }  
+
+   /* .table td{
+    color: #90EE90;
+   }       */
+
+.table button {
+  margin: 0 0.2rem;
+}
+/* Carousel */
+.carousel .slide img {
+  max-width: 30rem;
+}
+
